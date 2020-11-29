@@ -4,7 +4,7 @@ html {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   text-align: center;
   font-family: "Quicksand", sans-serif;
   align-content: center;
@@ -37,7 +37,7 @@ hr {
 /*------------Landing Page Style------------------*/
 .navbar {
   align-items: center;
-  background-color: rgba(89, 174, 199);
+  background-color: rgb(177, 225, 240);
   text-align: center;
   transition: background-color 0.5s ease-out;
 }
@@ -51,7 +51,8 @@ hr {
   cursor: pointer;
 }
 .landing-container {
-  background-image: url("https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=676&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1600304594824-fcc43b7ceed7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80") ; */
+  background-image: url("https://images.unsplash.com/photo-1592467896946-992336f11f36?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;

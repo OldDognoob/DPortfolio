@@ -12,9 +12,9 @@ function Home() {
       <Navigation />
       <Landing />
       <About />
-      <MySkills />
-      <Works />
-      <Contact />
+      {/* <MySkills /> */}
+      {/* <Works /> */}
+      {/* <Contact /> */}
     </div>
   );
 }
