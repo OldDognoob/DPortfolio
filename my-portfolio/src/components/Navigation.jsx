@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap/dict/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.css";
 import { Navbar, Nav } from "react-bootstrap";
 import HomeIcon from "@material-ui/icons/Home";
 import { Link } from "react-scroll";
