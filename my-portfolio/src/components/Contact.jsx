@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
-import { FontAwesome, FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
   faGithub,
@@ -9,11 +8,13 @@ import {
 import { Button } from "react-bootstrap";
 
 function Contact() {
-    const year = new Date().getFullYear();
+  //the getFullYear method returns the year of the specified date according to local time.
+  const year = new Date().getFullYear();
   return (
     <section id="contact">
       <h2>Contact Me</h2>
       <hr />
+
       <div className="contact-me">
         <p>Would love to get in touch with you and have a chat!</p>
         <Button
