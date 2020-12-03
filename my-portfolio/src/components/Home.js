@@ -20,7 +20,7 @@ function Home() {
       <Landing />
       <About />
       {/* <MySkills /> */}
-      {/* <Works /> */}
+      <Works />
       <Contact />
     </div>
   );
