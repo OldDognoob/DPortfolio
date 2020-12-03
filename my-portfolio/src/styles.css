@@ -111,7 +111,7 @@ hr {
   line-height: 2;
   margin-top: 2%;
 }
-.footer-link {
+/* .footer-link {
   color: #fff;
   margin: 50px 30px;
   text-decoration: none;
@@ -119,4 +119,21 @@ hr {
 }
 .footer-link:hover {
   color: white;
+} */
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social.hover {
+  transform:translateY(-2px);
+}
+a.linkedin{
+  color:#d1d9eb;
+}
+a.twitter{
+  color:#d1d9eb;
+}
+a.github{
+  color:#d1d9eb;
 }

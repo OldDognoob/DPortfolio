@@ -1,36 +1,44 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
+import { FontAwesome, FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { Button } from "react-bootstrap";
 
 function Contact() {
-  const year = new Date().getFullYear();
+    const year = new Date().getFullYear();
   return (
-    <section section id="contact">
+    <section id="contact">
       <h2>Contact Me</h2>
       <hr />
-      <p></p>
       <div className="contact-me">
+        <p>Would love to get in touch with you and have a chat!</p>
         <Button
           variant="outline-light"
-          href="mailto:christidis.dimosthenis@gmail.com"
+          href="mailtop:christidis.dimosthenis@gmai.com"
         >
           CONTACT ME
         </Button>
         <a
-          className="footer-link"
           href="https://www.linkedin.com/in/dimoschristidis/"
+          className="linkedin social"
         >
-          LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} size="1x" />
+          Linkedin
         </a>
         <a
-          className="footer-link"
           href="https://twitter.com/DimosthenisChr1"
+          className="twitter social"
         >
-         Twitter
+          <FontAwesomeIcon icon={faTwitter} size="1x" />
+          Twitter
         </a>
-        <a className="footer-link" href="https://github.com/OldDognoob">
-          Github
+        <a href="https://github.com/OldDognoob" className="github social">
+          <FontAwesomeIcon icon={faGithub} size="1x" />
         </a>
-        <p className="footer-p">&copy; Copyright {year} Dimos Christidis </p>
       </div>
     </section>
   );
