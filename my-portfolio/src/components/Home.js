@@ -14,7 +14,7 @@ function Home() {
       <About />
       {/* <MySkills /> */}
       {/* <Works /> */}
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }
