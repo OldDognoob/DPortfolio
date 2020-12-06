@@ -1,6 +1,7 @@
 import React from "react";
 import { Button} from "react-bootstrap";
 import { Link } from "react-scroll";
+import "bootstrap/dist/css/bootstrap.css";
 
 function Buttons(props) {
   return (

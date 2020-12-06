@@ -38,13 +38,13 @@ function Navigation() {
             <Nav.Link as ={Link} to="about"smooth={true} duration={1000}>
               About
             </Nav.Link>
-            <Nav.Link as ={Link} to="about"smooth={true} duration={1500}>
+            <Nav.Link as ={Link} to="mySkills"smooth={true} duration={1500}>
               Skills
             </Nav.Link>
             <Nav.Link as ={LinkRoute} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link as ={Link} to="about"smooth={true} duration={2000}>
+            <Nav.Link as ={Link} to="contact"smooth={true} duration={2000}>
               Contact
             </Nav.Link>
           </Nav>
