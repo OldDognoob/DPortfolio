@@ -9,6 +9,7 @@ import { Button } from "react-bootstrap";
 
 function Contact() {
   //the getFullYear method returns the year of the specified date according to local time.
+  // eslint-disable-next-line no-unused-vars
   const year = new Date().getFullYear();
   return (
     <section id="contact">
