@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-// import "font-awesome/css/font-awesome/min.css";
 import "font-awesome/css/font-awesome.min.css";
 
 function SkillItem(props) {
   const [hover, setHover] = useState(false);
 
   function handleHover() {
-    setHover(false);
+    setHover(true);
   }
   function handleMouseOut() {
     setHover(false);
@@ -18,11 +17,12 @@ function SkillItem(props) {
           className={props.skillIcon}
           onMouseOver={handleHover}
           onMouseOut={handleMouseOut}
-          style={{ transform: hover ? "scale(1.5,1.5)" : null }}
+          style={{ transform: hover ? " scale(1.5,1.5)" : null }}
         ></i>
       </figure>
       <h6 className="skill__item__title">{props.skillName}</h6>
     </div>
   );
 }
+
 export default SkillItem;
