@@ -92,7 +92,10 @@ hr {
   box-shadow: 0 0 5px #ddd;
   background-color: rgb(216, 215, 215);
 }
-
+.p-4:hover{
+  color:#b10541;
+  transform: scale(1.2);
+}
 /*------------Work Part 2 Style------------------*/
 #works {
   width: 100%;
@@ -182,6 +185,3 @@ a.github{
 
 /*------------Work Part 1 Style Experiment different colors------------------*/
 
-/* .p-4 fa-css3:hover{
-  background-color: blue;
-} */

@@ -45,7 +45,6 @@ function Skills() {
             skillName="Responsive Design"
           />
         </Col>
-
       </Row>
     </Container>
   );
