@@ -19,7 +19,7 @@ function Home() {
       <Navigation />
       <Landing />
       <About />
-      {/* <MySkills /> */}
+      <MySkills />
       <Works />
       <Contact />
     </div>
