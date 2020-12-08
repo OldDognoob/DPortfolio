@@ -68,7 +68,8 @@ hr {
   padding: 10% 10% 0;
 }
 .landing-container > Button {
-  margin: 3% 1% 5%;
+  /* margin: 3% 1% 5%; */
+  margin-right:2rem;
 }
 
 /*------------About Page Style------------------*/
