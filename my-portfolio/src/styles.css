@@ -68,8 +68,8 @@ hr {
   font-size: 4rem;
   padding: 10% 10% 0;
 }
-.landing-container > Button {
-  /* margin: 3% 1% 5%; */
+.landing-container > Buttons {
+  margin: 3% 1% 5%;
   margin-right: 2rem;
 }
 /* .landing-container > Button{
