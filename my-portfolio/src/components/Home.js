@@ -6,6 +6,8 @@ import MySkills from "./MySkills";
 import Contact from "./Contact";
 
 import Works from "./Works";
+import useDarkMode from "./useDarkMode";
+import Toggle from "./Toggle";
 
 // const location ={
 //   address:'8 Chrysochooy Street, Larisa, Greece',
@@ -14,8 +16,12 @@ import Works from "./Works";
 // }
 
 function Home() {
+  const [theme, toggleTheme] = useDarkMode();
+  // console.log(theme);
+
   return (
     <div className="home__components">
+      <Toggle theme={theme} toggleTheme={toggleTheme}/>
       <Navigation />
       <Landing />
       <About />
