@@ -68,11 +68,11 @@ hr {
   padding: 10% 10% 0;
 }
 .landing-container > Button {
-  margin: 3% 1% 5%;
+  margin: 3% 2% 5%;
 }
-.landing-container > Button{
+/* .landing-container > Button{
   margin-right: 2rem;
-}
+} */
 .landing-container > p {
   margin-right:2rem;
 }
