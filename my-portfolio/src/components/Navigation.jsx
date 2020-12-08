@@ -5,7 +5,13 @@ import HomeIcon from "@material-ui/icons/Home";
 import { Link } from "react-scroll";
 import { Link as LinkRoute } from "react-router-dom";
 
+import useDarkMode from './useDarkMode';
+import Toggle from './Toggle';
+
 function Navigation() {
+  const [darkMode, setDarkMode] = useDarkMode();
+
+
   const [navbar, setNavbar] = useState(false);
 
   function handleClick() {
@@ -13,6 +19,7 @@ function Navigation() {
   }
   return (
     <div>
+      <Toggle darkMode={darkMode} setDarkMode={setDarkMode} />
       <Navbar
         className={navbar ? "navbar active" : "navbar"}
         collapseOnSelect

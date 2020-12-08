@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import useLocalStorage from './use-local-storage';
-import useMedia from './use-media';
+import useLocalStorage from './useLocalStorage';
+import useMedia from './useMedia';
 
 function useDarkMode(){
     // we are using a localStorage hook to refresh the page by pushing the state through

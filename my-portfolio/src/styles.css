@@ -92,8 +92,8 @@ hr {
   box-shadow: 0 0 5px #ddd;
   background-color: rgb(216, 215, 215);
 }
-.p-4:hover{
-  color:#b10541;
+.p-4:hover {
+  color: #b10541;
   transform: scale(1.2);
 }
 /*------------Work Part 2 Style------------------*/
@@ -129,16 +129,16 @@ a.social {
   display: inline-block;
 }
 a.social.hover {
-  transform:translateY(-2px);
+  transform: translateY(-2px);
 }
-a.linkedin{
-  color:#d1d9eb;
+a.linkedin {
+  color: #d1d9eb;
 }
-a.twitter{
-  color:#d1d9eb;
+a.twitter {
+  color: #d1d9eb;
 }
-a.github{
-  color:#d1d9eb;
+a.github {
+  color: #d1d9eb;
 }
 /*------------Map Style------------------*/
 /* .map{
@@ -183,5 +183,29 @@ a.github{
   }
 } */
 
-/*------------Work Part 1 Style Experiment different colors------------------*/
-
+/*------------Dark Functionality-----------------*/
+.dark-mode-toggle {
+  display: flex;
+  margin: 0 auto;
+}
+.dark-mode-toggle button {
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  color: #ffe600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  
+}
+.dark-mode-toggle last-child{
+  color: #666;
+}
+.dark-mode-toggle focus{
+  outline: none;
+}
+.toggle-control {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+}
