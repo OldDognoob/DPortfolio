@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
 import useMedia from "./useMedia";
 
-function useDarkMode() {
+function useLightMode() {
   //use our iseLocalStorage to persist state through a page refresh
-  const [enabledState, setEnabledState] = useLocalStorage("dark-mode-enabled");
+  const [enabledState, setEnabledState] = useLocalStorage("light-mode-enabled");
 
   //if user has set a browser or OS preference for dark mode
   const prefersDarkMode = usePrefersdarkMode();

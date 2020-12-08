@@ -5,13 +5,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import { Link } from "react-scroll";
 import { Link as LinkRoute } from "react-router-dom";
 
-import useDarkMode from './useDarkMode';
-import Toggle from './Toggle';
-
 function Navigation() {
-  const [darkMode, setDarkMode] = useDarkMode();
-
-
   const [navbar, setNavbar] = useState(false);
 
   function handleClick() {
@@ -19,7 +13,6 @@ function Navigation() {
   }
   return (
     <div>
-      <Toggle darkMode={darkMode} setDarkMode={setDarkMode} />
       <Navbar
         className={navbar ? "navbar active" : "navbar"}
         collapseOnSelect
@@ -34,28 +27,28 @@ function Navigation() {
           smooth={true}
           duration={1000}
         >
-          <HomeIcon/>
+          <HomeIcon />
         </Navbar.Brand>
         <Navbar.Toggle
-        onClick={handleClick}
-        ara-controls="responsive-navbar-nav"
+          onClick={handleClick}
+          ara-controls="responsive-navbar-nav"
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link as ={Link} to="about"smooth={true} duration={1000}>
+            <Nav.Link as={Link} to="about" smooth={true} duration={1000}>
               About
             </Nav.Link>
-            <Nav.Link as ={Link} to="mySkills"smooth={true} duration={1500}>
+            <Nav.Link as={Link} to="mySkills" smooth={true} duration={1500}>
               Skills
             </Nav.Link>
-            <Nav.Link as ={LinkRoute} to="/projects">
+            <Nav.Link as={LinkRoute} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link as ={Link} to="contact"smooth={true} duration={2000}>
+            <Nav.Link as={Link} to="contact" smooth={true} duration={2000}>
               Contact
             </Nav.Link>
           </Nav>
-          </Navbar.Collapse>
+        </Navbar.Collapse>
       </Navbar>
     </div>
   );
