@@ -3,7 +3,6 @@ import Cards from "./Cards";
 import HomeIcon from "@material-ui/icons/Home";
 import Fab from "@material-ui/core/Fab";
 import { Link } from "react-router-dom";
-
 function Projects() {
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,8 +16,9 @@ function Projects() {
           </Fab>
         </Link>
       </div>
-      <Cards/>
+      <Cards />
     </div>
   );
 }
+
 export default Projects;
