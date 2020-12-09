@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Cards from "./Cards";
 import HomeIcon from "@material-ui/icons/Home";
 import Fab from "@material-ui/core/Fab";
 import { Link } from "react-router-dom";
 
 function Projects() {
-  useEffect(() => {
+  React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
