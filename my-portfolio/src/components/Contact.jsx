@@ -5,7 +5,8 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { Button } from "react-bootstrap";
+ import {faEnvelope} from "@fontawesome/free-solid-svg-icons";
+// import { Button } from "react-bootstrap";
 
 function Contact() {
   //the getFullYear method returns the year of the specified date according to local time.
@@ -18,13 +19,21 @@ function Contact() {
 
       <div className="contact-me">
         <p>Would love to get in touch with you and have a chat!</p>
-        <Button
+        {/* <Button
           variant="outline-light"
           href="mailto:christidis.dimosthenis@gmail.com"
         >
-          {/* <FontAwesomeIcon icon={}size="2x"/> */}
+          
           CONTACT ME
-        </Button>
+        </Button> */}
+         <a
+          href="mailto:christidis.dimsothenis@gmail.com"
+          className="email"
+        >
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+          {/* Linkedin */}
+        </a>
+
         <a
           href="https://www.linkedin.com/in/dimoschristidis/"
           className="linkedin social"
