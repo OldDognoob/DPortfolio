@@ -51,10 +51,11 @@ hr {
   cursor: pointer;
 }
 .landing-container {
-  /* background-image: url("https://images.unsplash.com/photo-1600304594824-fcc43b7ceed7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80") ; */
+  background-image: url("https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80") ;
   /* background-image: url("https://images.unsplash.com/photo-1592467896946-992336f11f36?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"); */
   /* background-image:url("https://images.unsplash.com/photo-1541615008677-0d46e9f9dcb6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
-  background-image:url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  /* background-image:url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
+    /* background-image:url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -78,6 +79,7 @@ hr {
 } */
 .landing-container > p {
   margin-left:0.3rem;
+  font-size:1.5rem;
 }
 
 /*------------About Page Style------------------*/
@@ -149,48 +151,6 @@ a.twitter {
 a.github {
   color: #d1d9eb;
 }
-/*------------Map Style------------------*/
-/* .map{
-  height: 8px;
-  width:8px;
-  display: block;
-  border-radius:4px;
-}
-.google-map{
-  height: 100%;
-  width:100%
-}
-.map-h2{
-  text-transform: uppercase;
-  font-size:1rem;
-  padding:20px;
-  padding-left:10px;
-  text-align:center;
-}
-.pin{
-  display:flex;
-  align-items:center;
-  width:180px;
-  color:blue;
-}
-.pin-icon{
-  font-size:4rem;
-}
-@media screen and(min-width:799px){
-  .google-map{
-    height:80vh;
-  }
-  .map-h2{
-    font-size:1.3rem;
-    font-weight:400;
-  }
-  .pin{
-    width:15vw;
-  }
-  .pin-icon{
-    font-size:10vw;
-  }
-} */
 
 /*------------Dark Functionality-----------------*/
 

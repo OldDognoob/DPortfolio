@@ -1,7 +1,7 @@
 import React from "react";
-import { Button} from "react-bootstrap";
-import { Link } from "react-scroll";
+import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
+import { Link } from "react-scroll";
 
 function Buttons(props) {
   return (
@@ -17,4 +17,5 @@ function Buttons(props) {
     </Button>
   );
 }
+
 export default Buttons;
