@@ -22,24 +22,25 @@ function Contact() {
           variant="outline-light"
           href="mailto:christidis.dimosthenis@gmail.com"
         >
+          {/* <FontAwesomeIcon icon={}size="2x"/> */}
           CONTACT ME
         </Button>
         <a
           href="https://www.linkedin.com/in/dimoschristidis/"
           className="linkedin social"
         >
-          <FontAwesomeIcon icon={faLinkedin} size="1x" />
-          Linkedin
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          {/* Linkedin */}
         </a>
         <a
           href="https://twitter.com/DimosthenisChr1"
           className="twitter social"
         >
-          <FontAwesomeIcon icon={faTwitter} size="1x" />
-          Twitter
+          <FontAwesomeIcon icon={faTwitter} size="2x" />
+          {/* Twitter */}
         </a>
         <a href="https://github.com/OldDognoob" className="github social">
-          <FontAwesomeIcon icon={faGithub} size="1x" />
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>
     </section>
