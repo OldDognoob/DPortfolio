@@ -9,7 +9,7 @@ function Landing() {
         <p>a Front-end Developer</p>
         <Buttons
           text="See More"
-          link="About"
+          link="about"
           smoothScroll="true"
           variant="outline-dark"
           size="lg"
