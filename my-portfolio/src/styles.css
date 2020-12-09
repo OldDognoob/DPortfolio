@@ -104,7 +104,7 @@ hr {
   background-color: rgb(216, 215, 215);
 }
 .p-4:hover {
-  color: #b10541;
+  color: #0056b3;
   transform: scale(1.2);
 }
 /*------------Work Part 2 Style------------------*/
@@ -130,8 +130,8 @@ hr {
   margin: 50px 30px;
   text-decoration: none;
   font-weight: bold;
-}
-.footer-link:hover {
+} */
+/* .footer-link:hover {
   color: white;
 } */
 a.social {
@@ -151,6 +151,9 @@ a.twitter {
 a.github {
   color: #d1d9eb;
 }
-
+a.envelope{
+  color: #d1d9eb;
+  /* padding-right:0.5rem; */
+}
 /*------------Dark Functionality-----------------*/
 

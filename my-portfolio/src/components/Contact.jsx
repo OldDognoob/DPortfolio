@@ -5,7 +5,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
- import {faEnvelope} from "@fontawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 // import { Button } from "react-bootstrap";
 
 function Contact() {
@@ -19,21 +19,14 @@ function Contact() {
 
       <div className="contact-me">
         <p>Would love to get in touch with you and have a chat!</p>
-        {/* <Button
-          variant="outline-light"
+        <a
+          // variant="outline-light"
           href="mailto:christidis.dimosthenis@gmail.com"
-        >
-          
-          CONTACT ME
-        </Button> */}
-         <a
-          href="mailto:christidis.dimsothenis@gmail.com"
-          className="email"
+          className="email social"
         >
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
-          {/* Linkedin */}
+          {/* CONTACT ME */}
         </a>
-
         <a
           href="https://www.linkedin.com/in/dimoschristidis/"
           className="linkedin social"
