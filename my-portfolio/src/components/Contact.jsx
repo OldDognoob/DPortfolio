@@ -20,7 +20,7 @@ function Contact() {
         <p>Would love to get in touch with you and have a chat!</p>
         <Button
           variant="outline-light"
-          href="mailtop:christidis.dimosthenis@gmai.com"
+          href="mailto:christidis.dimosthenis@gmail.com"
         >
           CONTACT ME
         </Button>
