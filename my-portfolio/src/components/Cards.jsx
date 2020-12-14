@@ -1,7 +1,9 @@
 import React from "react";
 import CardItem from "./CardItem";
 import wunderlist from "../img/wunderlist.png";
-import africaMarket from "../img/africaMarket.png"
+import africaMarket from "../img/africaMarket.png";
+import gameOfLife from "../img/gameOfLife.png";
+import LambdaDoor from "../img/LambdaDoor.png";
 import "./cards.css";
 
 function Cards() {
@@ -11,7 +13,7 @@ function Cards() {
         <ul className="cards__items">
           <CardItem 
           path="https://wunder-list.netlify.app/" 
-          category="HTML5, CSS3, LESS, JS"
+          category="HTML5, CSS3, LESS, JavaScript"
           imgSrc= {wunderlist}
           imgAlt="wunderlist-img" 
           title="Wunderlist 2.0" 
@@ -20,7 +22,7 @@ function Cards() {
 
           <CardItem 
           path="https://africa-market-place.netlify.app/" 
-          category="CSS3, REACT" 
+          category="CSS3, ReactJS, Redux" 
           imgSrc={africaMarket} 
           imgAlt="africaMarket-img" 
           title="Africa Market Place" 
@@ -28,21 +30,22 @@ function Cards() {
           />
 
           <CardItem 
-          path="" 
-          category="" 
-          // imgSrc={} 
-          imgAlt="" 
-          title="" 
-          info="" 
+          path="https://practical-booth-069759.netlify.app/" 
+          category="CSS3, ReactJS, Redux" 
+          imgSrc={gameOfLife} 
+          imgAlt="gameOfLife-img" 
+          title="The Game of Life" 
+          info="The Game of life is a small representation of an automaton cellular system, 
+          a zero player game requiring no further input." 
           />
 
           <CardItem 
-          path="" 
-          category="" 
-          // imgSrc={} 
-          imgAlt="" 
-          title="" 
-          info="" 
+          path="https://lambdadooreuflex.netlify.app/" 
+          category="ReactJS,Redux" 
+          imgSrc={LambdaDoor} 
+          imgAlt="LambdaDoor-png" 
+          title="Lambda Door" 
+          info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest." 
           />
         </ul>
       </div>
