@@ -28,7 +28,8 @@ function Cards() {
           title="Africa Market Place" 
           info="A virtual market place for Africa business owners, where they can sell their products." 
           />
-
+          </ul>
+          <ul className="cards__items">
           <CardItem 
           path="https://practical-booth-069759.netlify.app/" 
           category="CSS3, ReactJS, Redux" 
