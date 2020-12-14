@@ -77,6 +77,10 @@ h1 {
 .cards__item__img:hover {
   transform: scale(1.1);
 }
+.cards__item__text__wrap {
+  padding: 20px 30px 30px;
+}
+
 .cards__item__title {
   color: #407294;
   font-size: 18px;
@@ -86,7 +90,7 @@ h1 {
 /*----------------------Media Queries---------------------*/
 @media only screen and(min-width:1200px){
     .content__blog__container{
-        width:48%;
+        width:84%;
     }
 }
 @media only screen and(min-width:1024px){
