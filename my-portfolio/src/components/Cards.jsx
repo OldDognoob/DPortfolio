@@ -1,9 +1,9 @@
 import React from "react";
 import CardItem from "./CardItem";
-import wunderlist from "../img/wunderlist.png";
-import africaMarket from "../img/africaMarket.png";
+import wunderlist1 from "../img/wunderlist1.png";
+import africaMarket1 from "../img/africaMarket1.png";
 import gameOfLife from "../img/gameOfLife.png";
-import LambdaDoor from "../img/LambdaDoor.png";
+import LambdaDoor1 from "../img/LambdaDoor1.png";
 import "./cards.css";
 
 function Cards() {
@@ -14,8 +14,8 @@ function Cards() {
           <CardItem 
           path="https://wunder-list.netlify.app/" 
           category="HTML5, CSS3, LESS, JavaScript"
-          imgSrc= {wunderlist}
-          imgAlt="wunderlist-img" 
+          imgSrc= {wunderlist1}
+          imgAlt="wunderlist-img style=width:auto; height:100%;" 
           title="Wunderlist 2.0" 
           info="A web app list for users to track down their tasks they need to complete." 
           />
@@ -23,8 +23,8 @@ function Cards() {
           <CardItem 
           path="https://africa-market-place.netlify.app/" 
           category="CSS3, ReactJS, Redux" 
-          imgSrc={africaMarket} 
-          imgAlt="africaMarket-img" 
+          imgSrc={africaMarket1} 
+          imgAlt="africaMarket-img style=width:auto; height:100%;" 
           title="Africa Market Place" 
           info="A virtual market place for Africa business owners, where they can sell their products." 
           />
@@ -43,8 +43,8 @@ function Cards() {
           <CardItem 
           path="https://lambdadooreuflex.netlify.app/" 
           category="ReactJS,Redux" 
-          imgSrc={LambdaDoor} 
-          imgAlt="LambdaDoor-png" 
+          imgSrc={LambdaDoor1} 
+          imgAlt="LambdaDoor-png style=width:auto; height:100%;" 
           title="Lambda Door" 
           info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest." 
           />
