@@ -2,8 +2,8 @@ import React from "react";
 
 function CardItem(props) {
   return (
-    <li className="cards__items">
-      <a className="cards__items__link" href={props.path}>
+    <li className="cards__item">
+      <a className="cards__item__link" href={props.path}>
         <figure
           className="cards__item__img__wrap"
           data-category={props.category}
@@ -22,4 +22,5 @@ function CardItem(props) {
     </li>
   );
 }
+
 export default CardItem;
