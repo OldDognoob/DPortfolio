@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "font-awesome/css/font-awesome.min.css";
+// import "font-awesome/css/font-awesome.min.css";
 
 function SkillItem(props) {
   const [hover, setHover] = useState(false);

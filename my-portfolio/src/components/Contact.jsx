@@ -44,6 +44,7 @@ function Contact() {
         <a href="https://github.com/OldDognoob" className="github social">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
+        <p className="footer-p">Dimos Christidis {year}.</p>
       </div>
     </section>
   );
