@@ -9,7 +9,7 @@ function Projects() {
   }, []);
   return (
     <div>
-      <div style={{ padding: "10px 0 0 10px" }}>
+      <div style={{ padding: "30px 0 0 30px" }}>
         <Link to="/">
           <Fab>
             <HomeIcon />
