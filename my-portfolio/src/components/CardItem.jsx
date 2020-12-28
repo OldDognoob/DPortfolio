@@ -28,8 +28,9 @@ function CardItem(props) {
             <CardLinks />
           </div>
           <div className="cards__item__icons__wrap">
+          
             <IconContext.Provider value={{ size: 25 }}>
-              <CardIcons />
+            <CardIcons />
             </IconContext.Provider>
           </div>
           </code>
