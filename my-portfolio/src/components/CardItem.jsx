@@ -1,6 +1,7 @@
 import React from "react";
 import CardLinks from "../components/CardLinks";
 import CardIcons from "../components/CardIcons";
+import { IconContext } from "react-icons";
 
 function CardItem(props) {
   return (
@@ -10,7 +11,7 @@ function CardItem(props) {
           <figure
             className="cards__item__img__wrap"
             // data-category={props.category}
-            card-icon = {props.icons}
+            card-icon={props.icons}
           >
             <img
               className="cards__item__img"
@@ -26,7 +27,9 @@ function CardItem(props) {
             <CardLinks />
           </div>
           <div className="cards__item__icons__wrap">
-            <CardIcons />
+            <IconContext.Provider value={{ size: 25 }}>
+              <CardIcons />
+            </IconContext.Provider>
           </div>
         </a>
       </li>

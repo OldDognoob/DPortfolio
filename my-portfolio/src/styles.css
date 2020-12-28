@@ -156,14 +156,5 @@ a.envelope{
   color: #d1d9eb;
   /* padding-right:0.5rem; */
 }
-/*---------React Animation Style------------*/
-@keyframes iconStyle {
-  100% {
-    transform: rotate(900deg);
-  }
-}
 
-.react-icon {
-  animation: react-icon 2s infinite;
-} 
 

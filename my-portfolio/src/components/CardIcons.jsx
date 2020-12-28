@@ -1,6 +1,7 @@
 import React from "react";
 import { DiJavascript1, DiCss3, DiHtml5, DiReact } from "react-icons/di";
 import { SiRedux } from "react-icons/si";
+
 // import "./styles.css";
 
 function CardIcons() {

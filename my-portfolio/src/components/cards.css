@@ -143,3 +143,13 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+/*---------React Animation Style------------*/
+@keyframes iconStyle {
+  100% {
+    transform: rotate(900deg);
+  }
+}
+
+.cards__item__icons_wrap .react-icon {
+  animation: react-icon 2s infinite;
+} 
