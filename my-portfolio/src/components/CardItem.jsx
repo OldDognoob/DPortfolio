@@ -7,7 +7,8 @@ function CardItem(props) {
   return (
     <div className="cards__container">
       <li className="cards__item">
-        <a href={props.path} className="cards__item__link">
+        <globe href={props.globe} className="cards__item__link">
+        <code href={props.code} className="cards__item__link">
           <figure
             className="cards__item__img__wrap"
             // data-category={props.category}
@@ -31,7 +32,8 @@ function CardItem(props) {
               <CardIcons />
             </IconContext.Provider>
           </div>
-        </a>
+          </code>
+        </globe>
       </li>
     </div>
   );

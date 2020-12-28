@@ -150,6 +150,6 @@ h1 {
   }
 }
 
-.cards__item__icons_wrap .react-icon {
+.cards__item__icons_wrap, .react-icon {
   animation: react-icon 2s infinite;
 } 
