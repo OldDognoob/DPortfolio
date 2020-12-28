@@ -51,6 +51,19 @@ h1 {
   overflow: hidden;
 }
 
+.cards__item__link__wrap{
+  display: flex;
+  align-items: center;
+  margin: 0 12rem;
+  margin-left:0 10px;
+}
+
+.cards__item__icons__wrap{
+  display: flex;
+  font-size: 22px;
+  margin-left:16em;
+}
+
 .fade-img {
   animation-name: fade-img;
   animation-duration: 2s;
@@ -66,7 +79,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #73bd2e;
+  /* background-color: #73bd2e; */
   box-sizing: border-box;
 }
 
