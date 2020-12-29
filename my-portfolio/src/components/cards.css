@@ -63,7 +63,6 @@ h1 {
 
 .cards__link a:hover {
   background: rgba(56, 125, 255, 0.17);
-  cursor: pointer;
   color:#0056b3;
 }
 

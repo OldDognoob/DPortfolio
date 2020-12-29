@@ -11,7 +11,6 @@ function CardItem(props) {
         <div className="cards__item__link">
           <figure
             className="cards__item__img__wrap"
-            // data-category={props.category}
           >
             <img
               className="cards__item__img"
