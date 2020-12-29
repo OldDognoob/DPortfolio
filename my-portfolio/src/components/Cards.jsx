@@ -46,8 +46,6 @@ function Cards() {
           cardIcon={CardIcons}
           cardRicon={CardRicon}
           />
-         
-
           </ul>
           <ul className="cards__items">
            <CardItem
@@ -69,7 +67,6 @@ function Cards() {
           imgAlt="LambdaDoor-png;"
           title="Lambda Door"
           info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest."
-          // cardIcon={CardIcons}
           cardRicon={CardRicon}
           cardRedux={CardRedux}
           />
