@@ -4,13 +4,13 @@ import React from "react";
 import CardItem from "./CardItem";
 
 /*-----Projects---- */
-import wunderlist from "../img/wunderlist.png";
-import africaMarket1 from "../img/africaMarket1.png";
-import gameOfLife from "../img/gameOfLife.png";
-import LambdaDoor from "../img/LambdaDoor.png"
+import wunderlist from "../images/wunderlist.png";
+import africaMarket1 from "../images/africaMarket1.png";
+import gameOfLife from "../images/gameOfLife.png";
+import LambdaDoor from "../images/LambdaDoor.png"
 
 /*-----Card Icon Component---- */
-import CardIcon from "../components/CardIcon";
+import CardIcons from "../components/CardIcons";
 
 /*-----Components---- */
 
@@ -39,7 +39,7 @@ function Cards() {
           imgAlt="wunderlist-img"
           title="Wunderlist 2.0"
           info="A web app list for users to track down their tasks they need to complete."
-          cardIcon={CardIcon}
+          cardIcon={CardIcons}
           /> 
           <CardItem
           globe="https://africa-market-place.netlify.app/"
@@ -48,7 +48,7 @@ function Cards() {
           imgAlt="africaMarket-img"
           title="Africa Market Place"
           info="A virtual market place for Africa business owners, where they can sell their products."
-          cardIcon={CardIcon}
+          cardIcon={CardIcons}
           />
          
 
@@ -62,7 +62,7 @@ function Cards() {
           title="The Game of Life"
           info="The Game of life is a small representation of an automaton cellular system,
           a zero player game requiring no further input."
-          category={CardIcon}
+          cardIcon={CardIcons}
           />
 
           <CardItem
@@ -72,7 +72,7 @@ function Cards() {
           imgAlt="LambdaDoor-png;"
           title="Lambda Door"
           info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest."
-          cardIcon={CardIcon}
+          cardIcon={CardIcons}
           />
         </ul>
       </div>

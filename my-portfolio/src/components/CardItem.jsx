@@ -1,5 +1,5 @@
 import React from "react";
-import CardIcon from "../components/CardIcon";
+import CardIcons from "../components/CardIcons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
@@ -31,7 +31,7 @@ function CardItem(props) {
               <FontAwesomeIcon icon={faCode} size="lg" />
             </a>
             <div className="cards__item__icons__wrap">
-            <CardIcon/>
+            <CardIcons/>
           </div>
           </div>
         </div>
