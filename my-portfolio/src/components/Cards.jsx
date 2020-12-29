@@ -41,7 +41,7 @@ function Cards() {
             imgAlt="africaMarket-img"
             title="Africa Market Place"
             info="A virtual market place for Africa business owners, where they can sell their products."
-            card-icon={CardLinks}
+            cardIcon={CardLinks}
           />
         </ul>
         <ul className="cards__items">
@@ -53,7 +53,7 @@ function Cards() {
             title="The Game of Life"
             info="The Game of life is a small representation of an automaton cellular system, 
             a zero player game requiring no further input."
-            card-icon={CardLinks}
+            cardIcon={CardLinks}
           />
 
           <CardItem
@@ -63,7 +63,7 @@ function Cards() {
             imgAlt="LambdaDoor-png;"
             title="Lambda Door"
             info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest."
-            card-icon={CardLinks}
+            cardIcon={CardLinks}
           />
         </ul>
       </div>
