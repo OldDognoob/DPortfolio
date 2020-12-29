@@ -52,13 +52,19 @@ h1 {
   overflow: hidden;
 }
 
-/* .cards__item__link__wrap{
-  display: flex;
-  align-items: center;
-  margin: 0 12rem;
-  margin-left:0 10px;
-  cursor:pointer;
-} */
+.cards__link a {
+  display: inline-block;
+  border: 0;
+  border-radius: 2px;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.cards__link a:hover {
+  background: rgba(56, 125, 255, 0.17);
+  color: rgb(41, 21, 223);
+}
 
 .cards__item__icons__wrap{
   display: flex;
@@ -145,17 +151,4 @@ h1 {
   .cards__item__icons__wrap{
     margin-left: 10px;
   }
-  .cards__item__link__wrap{
-    margin-left: 10px;
-  }
-} 
-
-@keyframes iconStyle {
-  100% {
-    transform: rotate(900deg);
-  }
-}
-
-.react-icon {
-  animation: react-icon 2s infinite;
 } 
