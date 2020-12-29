@@ -1,7 +1,6 @@
 import React from "react";
 import CardIcons from "../components/CardIcons";
 
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
 
@@ -24,7 +23,7 @@ function CardItem(props) {
             <h3 className="cards__item__title">{props.title}</h3>
             <p className="cards__item__info">{props.info}</p>
           </div>
-          <div className="cards__item__link">
+          <div className="cards__link">
             <a href={props.globe}>
               <FontAwesomeIcon icon={faGlobe} size="lg" />
             </a>
@@ -32,7 +31,7 @@ function CardItem(props) {
               <FontAwesomeIcon icon={faCode} size="lg" />
             </a>
             <div className="cards__item__icons__wrap">
-            <CardIcons />
+            <CardIcons/>
           </div>
           </div>
         </div>
