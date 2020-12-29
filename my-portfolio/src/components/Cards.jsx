@@ -12,16 +12,11 @@ import LambdaDoor from "../images/LambdaDoor.png"
 /*-----Card Icon Component---- */
 import CardIcons from "../components/CardIcons";
 
-/*-----Components---- */
+/*-----React Icon Component---- */
+import CardRicon from "../components/CardRicon";
 
-
-/*-----Components---- */
-
-
-/*-----Card Icons Components---- */
-// import CardIcons from "../components/CardIcons";
-// import CardRicon from "../components/CardRicon";
-// import CardRedux from "../components/CardRedux";
+/*-----Redux Icon Component---- */
+import CardRedux from "../components/CardRedux";
 
 /*-----CSS Style---- */
 import "./cards.css";
@@ -49,6 +44,7 @@ function Cards() {
           title="Africa Market Place"
           info="A virtual market place for Africa business owners, where they can sell their products."
           cardIcon={CardIcons}
+          cardRicon={CardRicon}
           />
          
 
@@ -63,6 +59,7 @@ function Cards() {
           info="The Game of life is a small representation of an automaton cellular system,
           a zero player game requiring no further input."
           cardIcon={CardIcons}
+          cardRicon={CardRicon}
           />
 
           <CardItem
@@ -72,7 +69,9 @@ function Cards() {
           imgAlt="LambdaDoor-png;"
           title="Lambda Door"
           info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest."
-          cardIcon={CardIcons}
+          // cardIcon={CardIcons}
+          cardRicon={CardRicon}
+          cardRedux={CardRedux}
           />
         </ul>
       </div>
