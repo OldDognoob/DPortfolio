@@ -1,11 +1,21 @@
 import React from "react";
 import CardItem from "./CardItem";
+
+//Components
 import wunderlist from "../images/wunderlist.png";
 import africaMarket from "../images/africaMarket.png";
 import LambdaDoor from "../images/LambdaDoor.png";
 import gameOfLife from "../images/gameOfLife.png";
 
+// CardLinks Component
 import CardLinks from "../components/CardLinks";
+
+// Card-Icons-React-Redux Component
+// import CardIcons from "../components/CardIcons";
+// import CardRicon from "../components/CardRicon";
+// import CardRedux from "../components/CardRedux";
+
+
 
 import "./cards.css";
 
@@ -21,7 +31,7 @@ function Cards() {
             imgAlt="wunderlist-img"
             title="Wunderlist 2.0"
             info="A web app list for users to track down their tasks they need to complete."
-            card-icon={CardLinks}
+            cardIcon={CardLinks}
           />
 
           <CardItem
