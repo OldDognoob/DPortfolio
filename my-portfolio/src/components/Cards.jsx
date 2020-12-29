@@ -36,6 +36,7 @@ function Cards() {
 
           <CardItem
             path="https://africa-market-place.netlify.app/"
+            code="https://github.com/african-market-place"
             imgSrc={africaMarket}
             imgAlt="africaMarket-img"
             title="Africa Market Place"
@@ -46,6 +47,7 @@ function Cards() {
         <ul className="cards__items">
           <CardItem
             path="https://practical-booth-069759.netlify.app/"
+            code="https://github.com/OldDognoob/Game-of-life/tree/Dimos-1"
             imgSrc={gameOfLife}
             imgAlt="gameOfLife-img"
             title="The Game of Life"
@@ -56,6 +58,7 @@ function Cards() {
 
           <CardItem
             path="https://lambdadooreuflex.netlify.app/"
+            code="https://github.com/Labs-EU-Flex/lambda-door-client"
             imgSrc={LambdaDoor}
             imgAlt="LambdaDoor-png;"
             title="Lambda Door"

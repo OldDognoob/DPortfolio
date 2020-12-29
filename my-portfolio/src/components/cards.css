@@ -1,3 +1,4 @@
+
 .cards {
   padding: 4rem;
   background: #fff;
@@ -51,17 +52,19 @@ h1 {
   overflow: hidden;
 }
 
-.cards__item__link__wrap{
+/* .cards__item__link__wrap{
   display: flex;
   align-items: center;
   margin: 0 12rem;
   margin-left:0 10px;
-}
+  cursor:pointer;
+} */
 
 .cards__item__icons__wrap{
   display: flex;
   font-size: 22px;
   margin-left:16em;
+  cursor:pointer;
 }
 
 .fade-img {
@@ -79,7 +82,6 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  /* background-color: #73bd2e; */
   box-sizing: border-box;
 }
 
@@ -103,7 +105,7 @@ h1 {
 }
 
 .cards__item__text__wrap {
-  padding: 20px 30px 30px;
+  padding: 10px 30px 10px;
 }
 
 .cards__item__title {
@@ -119,14 +121,12 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-/* .cards__item__link a:hover{
+ .cards__item__link a:hover{
   cursor: pointer;
   color:#0056b3;
-} */
+}
 
-
-
-@media only screen and (min-width: 1200px) {
+ @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
   }
@@ -142,8 +142,14 @@ h1 {
   .cards__item {
     margin-bottom: 2rem;
   }
-}
-/*---------React Animation Style------------*/
+  .cards__item__icons__wrap{
+    margin-left: 10px;
+  }
+  .cards__item__link__wrap{
+    margin-left: 10px;
+  }
+} 
+
 @keyframes iconStyle {
   100% {
     transform: rotate(900deg);
