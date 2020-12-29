@@ -1,5 +1,5 @@
 import React from "react";
-import CardIcons from "../components/CardIcons";
+import CardIcon from "../components/CardIcon";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +11,7 @@ function CardItem(props) {
         <div className="cards__item__link">
           <figure
             className="cards__item__img__wrap"
+            // data-category={props.category}
           >
             <img
               className="cards__item__img"
@@ -30,7 +31,7 @@ function CardItem(props) {
               <FontAwesomeIcon icon={faCode} size="lg" />
             </a>
             <div className="cards__item__icons__wrap">
-            <CardIcons/>
+            <CardIcon/>
           </div>
           </div>
         </div>

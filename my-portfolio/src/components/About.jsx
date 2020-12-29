@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/DC4.jpg";
+import profile from "../img/DC4.jpg";
 
 function About() {
   return (
