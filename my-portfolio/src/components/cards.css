@@ -63,7 +63,8 @@ h1 {
 
 .cards__link a:hover {
   background: rgba(56, 125, 255, 0.17);
-  color: rgb(41, 21, 223);
+  cursor: pointer;
+  color:#0056b3;
 }
 
 .cards__item__icons__wrap{
