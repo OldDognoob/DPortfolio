@@ -1,10 +1,8 @@
 import React from "react";
-import CardIcons from "../components/CardIcons";
-import CardRicon from "../components/CardRicon";
-import CardRedux from "../components/CardRedux";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe, faCode } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe} from "@fortawesome/free-solid-svg-icons";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 function CardItem(props) {
   return (
@@ -13,7 +11,7 @@ function CardItem(props) {
         <div className="cards__item__link">
           <figure
             className="cards__item__img__wrap"
-            // data-category={props.category}
+            data-tech={props.tech}
           >
             <img
               className="cards__item__img"
@@ -30,13 +28,8 @@ function CardItem(props) {
               <FontAwesomeIcon icon={faGlobe} size="lg" />
             </a>
             <a href={props.code}>
-              <FontAwesomeIcon icon={faCode} size="lg" />
+            <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
-            <div className="cards__item__icons__wrap">
-            <CardIcons/>
-            <CardRicon/>
-            <CardRedux/>
-          </div>
           </div>
         </div>
       </li>
