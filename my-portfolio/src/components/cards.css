@@ -82,7 +82,7 @@ h1 {
 }
 
 .cards__item__img__wrap:after {
-  content: attr(data-category);
+  content: attr(data-tech);
   position: absolute;
   bottom: 0;
   margin-left: 10px;
@@ -91,6 +91,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
+  background-color:#c5d9fc;
   box-sizing: border-box;
 }
 
