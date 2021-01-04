@@ -53,7 +53,7 @@ function Cards() {
             code="https://github.com/Labs-EU-Flex/lambda-door-client"
             tech="React,Redux"
             imgSrc={LambdaDoor}
-            imgAlt="LambdaDoor-png;"
+            imgAlt="LambdaDoor-png"
             title="Lambda Door"
             info="Lambda Door is a web portal door for all lambda graduates to explore companies information and gain a competitive advantage to any job quest."
           />
