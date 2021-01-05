@@ -120,9 +120,9 @@ a.social {
   transition: transform 250ms;
   display: inline-block;
 }
-a.social.hover {
+a.social:hover {
   transform: translateY(-2px);
-  background-color: #0056b3;
+  color: #0056b3;
 }
 a.linkedin {
   color: #d1d9eb;
