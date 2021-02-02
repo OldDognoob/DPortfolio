@@ -19,7 +19,7 @@ function About() {
         collaborations or if you'd like to know more about my work.
         <br /> Check out my{" "}
         <a
-          href="https://docs.google.com/document/d/1rfrhYomMyeNrNqnkhn8M_wYE2gW7PfyBeHaKLNf_R2s/edit"
+          href="https://docs.google.com/document/d/1E1b4xoL2lrFTJAcwOz66sce2JHYscesE2f2Svfg2vV8/edit"
           target="_blank"
           rel="noreferrer noopener"
         >
